@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: knative-eventing-mtbroker-ingress
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/pdipilat-tenant/serverless-operator-release-132/knative-eventing-mtbroker-ingress@sha256:a1eb8cdd7a3bfd831a264d48018cbcb1e58e0a3643aa56a42c87173e03628740
         imagePullPolicy: Always
         name: container-image
         resources: {}
